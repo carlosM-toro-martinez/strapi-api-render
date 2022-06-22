@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "museos",
+  "info": {
+    "singularName": "museo",
+    "pluralName": "museos",
+    "displayName": "museo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "coordinates": {
+      "type": "json"
+    },
+    "uid": {
+      "type": "uid"
+    }
+  }
+}
