@@ -44,9 +44,6 @@
     "dias": {
       "type": "string"
     },
-    "telefono": {
-      "type": "biginteger"
-    },
     "tarde": {
       "type": "string"
     },
@@ -58,6 +55,12 @@
     },
     "mail": {
       "type": "email"
+    },
+    "calle": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
     }
   }
 }
