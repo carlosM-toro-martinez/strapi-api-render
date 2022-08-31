@@ -35,7 +35,7 @@
     "uid": {
       "type": "uid"
     },
-    "horario": {
+    "manana": {
       "type": "string"
     },
     "precio": {
@@ -46,6 +46,18 @@
     },
     "telefono": {
       "type": "biginteger"
+    },
+    "tarde": {
+      "type": "string"
+    },
+    "web": {
+      "type": "email"
+    },
+    "precioExtranjeros": {
+      "type": "integer"
+    },
+    "mail": {
+      "type": "email"
     }
   }
 }
