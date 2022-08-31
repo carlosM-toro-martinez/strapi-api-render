@@ -47,9 +47,6 @@
     "tarde": {
       "type": "string"
     },
-    "web": {
-      "type": "email"
-    },
     "precioExtranjeros": {
       "type": "integer"
     },
@@ -60,6 +57,9 @@
       "type": "string"
     },
     "telefono": {
+      "type": "string"
+    },
+    "web": {
       "type": "string"
     }
   }
